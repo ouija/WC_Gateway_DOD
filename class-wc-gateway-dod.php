@@ -275,7 +275,7 @@ class WC_Gateway_DOD extends WC_Payment_Gateway {
 
 		if ( $order->get_total() > 0 ) {
 			// Mark as processing or on-hold (payment won't be taken until delivery).
-			$order->update_status( apply_filters( 'woocommerce_dod_process_payment_order_status', $order->has_downloadable_item() ? 'on-hold' : 'processing', $order ), __( 'Payment to be made upon delivery.', 'woocommerce' ) );
+			$order->update_status( apply_filters( 'woocommerce_dod_process_payment_order_status', $order->has_downloadable_item() ? 'on-hold' : 'processing', $order ), __( 'Payment to be made by Debit upon delivery.', 'woocommerce' ) );
 		} else {
 			$order->payment_complete();
 		}
