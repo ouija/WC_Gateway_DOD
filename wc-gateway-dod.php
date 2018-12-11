@@ -3,11 +3,11 @@
  * Plugin Name: WooCommerce Debit on Delivery
  * Plugin URI: https://github.com/ouija/WC_Gateway_DOD
  * Description: Extends WooCommerce by adding a payment option of debit on delivery.
- * Version: 1.1
+ * Version: 1.2
  * Requires at least: 4.0
- * Tested up to: 4.9.7
+ * Tested up to: 5.0
  * WC requires at least: 2.5
- * WC tested up to: 3.4.3
+ * WC tested up to: 3.5
  * Author: ouija
  * Author URI: http://ouija.xyz
  * License: GPLv2 or later
